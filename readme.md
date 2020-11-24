@@ -43,4 +43,8 @@ Rendez-vous dans le dossier parent où vous voulez créer l’application et uti
 
 Ce qui va automatiquement ajouter les dépendances React et React-dom.
 
+# Dossier Style
+
+Afin de ne pas perdre de temps à faire du SCSS, je vous fourni le dossier de style qu'on utilisera pour la présentation. Quelques explications seront données au fur et à mesure.
+
 La suite lors du Workshop ;)
