@@ -1,6 +1,6 @@
 # Introduction à React avec NextJS
 
-Avant tout, vous devez avec Node d’installer sur la machine,
+Avant tout, vous devez avoir Node d’installer sur la machine,
 
 Pour ce faire
 
