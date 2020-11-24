@@ -1,0 +1,46 @@
+@keyframes cardopen {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container{
+    text-align: center;
+    background-color: lightblue;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    animation-name: cardopen;
+    animation-duration: 1s;
+    box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: 0.3);
+    &__image{
+        margin-top: 50px;
+        max-width: 50px;
+        min-height: 50px;
+        border-radius: 50%;
+    }
+    &__cardtitle{
+        height: 3em;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    &__carddesc{
+        height: 5em;
+    }
+    &__cardbutton{
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: lightcoral;
+        color: white;
+        transition-duration: .5s;
+        &:hover{
+            color: black;
+            padding: 12px;
+        }
+    }
+}
